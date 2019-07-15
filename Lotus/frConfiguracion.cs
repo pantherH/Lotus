@@ -71,19 +71,12 @@ namespace Lotus
                     if (result == DialogResult.Yes)
                     {
                         xml.Save(ruta);
+                        
 
                     }
 
                 }
-                //else
-                //{
-
-                //    string mensaje = "No se pudo establecer la conexión con el servidor.";
-                //    string titulo = "Error de conexión";
-                //    MessageBoxButtons butones = MessageBoxButtons.OK;
-                //    MessageBox.Show(mensaje, titulo, butones, MessageBoxIcon.Error);
-
-                //}
+               
            
             
 
